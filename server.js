@@ -8,7 +8,7 @@ app.use(cors());
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
-app.use(express.static('public')); // Serve o front-end
+app.use(express.static(__dirname)); // Serve os ficheiros na raiz
 
 // Função para gerar números aleatórios
 function generateNumbers() {
