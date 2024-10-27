@@ -1,0 +1,116 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #b9eec0;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 50;
+    flex-direction: column; /* Alinhar verticalmente */
+    padding-top: 10px; /* Adicionar espaço extra */
+}
+
+h1 {
+    color: #2c3e50; /* Ou qualquer cor visível */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 3rem; /* Aumenta o tamanho */
+    text-align: center;
+    position: relative;
+    z-index: 10; /* Certifica que está na frente */
+}
+
+h2 {
+    color: #2c3e50; /* Ou qualquer cor visível */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 3rem; /* Aumenta o tamanho */
+    text-align: center;
+    position: relative;
+    z-index: 10; /* Certifica que está na frente */
+}
+
+
+ol.numbers li {
+    font-family: monospace;
+    display: inline-block;
+    background-color: rgb(255, 140, 0);
+    width: 80px;
+    font-size: 60px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 20%;
+}
+
+#generateBtn {
+    background-color: rgb(3, 69, 250);
+    color: yellow;
+    font-size: 40px;
+    width: 350px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#generateBtn:hover {
+    background-color: rgb(38, 131, 4);
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    gap: 20px;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+p {
+    color: #fa8705; 
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 50;
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    z-index: 10; 
+}
+
+#divcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+#divBet, #divStars {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 25px;
+    width: fit-content;
+}
+
+#divStars {
+    margin-bottom: 40px; 
+}
+
+
