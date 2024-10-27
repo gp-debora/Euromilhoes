@@ -1,6 +1,6 @@
 document.getElementById("generateBtn").addEventListener("click", () => {
-    fetch('http://localhost:3000/api/euromilhoes')
-        .then(response => response.json())
+    fetch('https://euromilhoes-w1qt.onrender.com/api/euromilhoes')
+    .then(response => response.json())
         .then(data => {
             console.log("Dados recebidos:", data);
             const { mainNumbers, luckyStars } = data;
